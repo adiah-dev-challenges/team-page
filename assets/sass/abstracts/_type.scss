@@ -1,0 +1,25 @@
+$type-scale: (
+	small: (
+		300: 0.625rem, 
+		400: 0.875rem, 
+		600: 1.125rem,
+		700: 2.25rem),
+	large: (
+		300: 1rem, 
+		400: 1.1875rem,
+		600: 2.827rem,
+		700: 5.653rem)
+);
+
+// 36px, lh 48, ls -0.045em -> page__header
+// 18px, lh 27px, fw 600 -> hero__title
+// 14px, lh 21px, fw 400 -> hero__body
+// 10px, lh 13px, fw 400 -> roles
+// 14px, fw 600 lh 21px -> names
+// 14px -> footer
+
+
+// 10 300
+// 14 400
+// 18 600
+// 36 700

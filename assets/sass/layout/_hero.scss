@@ -1,0 +1,17 @@
+@use '../abstracts/' as abs;
+
+.hero {
+	margin-bottom: 3.25rem;
+
+	&__title {
+		font-size: var(--fs-600);
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 0.625rem;
+	}
+
+	&__body {
+		font-size: var(--fs-400);
+		width: 88%;
+	}
+}

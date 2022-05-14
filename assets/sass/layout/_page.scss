@@ -1,0 +1,36 @@
+@use '../abstracts/' as abs;
+
+.team-page {
+	padding: 1.5rem 0.75rem; 
+
+	
+}
+
+.header {
+
+	&__title {
+		margin-top: 3rem;
+		margin-bottom: 2.375rem;
+		font-family: var(--ff-serif);
+		font-weight: 700;
+		font-size: var(--fs-700);
+		line-height: 1.3;
+		letter-spacing: -0.045em;
+	}
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+
+	&__attribution {
+		font-weight: 500;
+		font-family: var(--ff-sans);
+		color: #A9A9A9;
+	}
+
+	&__link {
+		color: #A9A9A9;
+		font-weight: 700;
+	}
+}
