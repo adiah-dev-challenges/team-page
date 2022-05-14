@@ -3,6 +3,11 @@
 .hero {
 	margin-bottom: 3.25rem;
 
+	@include abs.breakpoint(medium) {
+		width: 45%;
+		margin-bottom: 0;
+	}
+
 	&__title {
 		font-size: var(--fs-600);
 		font-weight: 600;
@@ -11,7 +16,12 @@
 	}
 
 	&__body {
-		font-size: var(--fs-400);
+		font-size: var(--fs-500);
 		width: 88%;
+
+		@include abs.breakpoint(medium) {
+			width: 100%;
+			font-size: var(--fs-600);
+		}
 	}
 }
