@@ -192,8 +192,8 @@ select {
   }
 }
 .team .team-member__role {
-  -ms-writing-mode: sideways-rl;
-      writing-mode: sideways-rl;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
   justify-self: center;
   font-size: var(--fs-300);
   font-family: var(--ff-serif);

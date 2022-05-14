@@ -34,7 +34,9 @@
 		}
 
 		&__role {
-			writing-mode: sideways-rl;
+			// only supported in firefox right now
+			// writing-mode: sideways-rl;
+			writing-mode: vertical-lr;
 			justify-self: center;
 			font-size: var(--fs-300);
 			font-family: var(--ff-serif);
